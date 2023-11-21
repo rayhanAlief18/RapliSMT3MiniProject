@@ -1,0 +1,178 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background: url('Desain.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    font-weight: bold;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    padding: 10px;
+    width: fit-content;
+    position: absolute;
+    top: 10px;
+    right: 0px; 
+}
+
+.topnav a {
+    color: #000000;
+    text-align: center;
+    padding: 10px; 
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: font-size 0.3s ease; 
+}
+
+.topnav a:hover {
+    background-color: #555859;
+    color: white;
+    border-bottom: 5px solid orange;
+    font-size: 20px; 
+}
+
+
+
+.transparent-box {
+    width: 500px;
+    height: 400px;
+    background: rgba(108, 83, 83, 0.55);
+    /* Warna merah dengan tingkat kejernihan 0.5 */
+    border: 1px solid #7d7373;
+    /* Garis tepi berwarna hitam */
+    position: absolute;
+    top: 320px;
+    /* Posisi vertikal di tengah */
+    transform: translateY(-50%);
+    /* Pusatkan di tengah vertikal */
+    right: 30px;
+    /* Jarak dari tepi kanan */
+    font-weight: bold;
+}
+
+.transparent-box p {
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: r gb(0, 0, 0);
+    text-align: center;
+    text-align: center;
+    /* Menengahkan ikon keranjang */
+}
+
+.cart-icon {
+    font-size: 60px;
+    /* Sesuaikan ukuran ikon sesuai kebutuhan */
+    color: rgb(0, 0, 0);
+    /* Warna ikon */
+    margin-top: 10px;
+    /* Jarak antara teks dan ikon */
+    position: absolute;
+    top: 86px;
+    /* Posisi vertikal di tengah */
+    transform: translateY(-50%);
+    /* Pusatkan di tengah vertikal */
+    right: 400px;
+    /* Jarak dari tepi kanan */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.order-button {
+    padding: 15px 100px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #000000;
+    color: white;
+    margin-top: 10px;
+    position: absolute;
+    top: 475px;
+    transform: translateY(-75%);
+    right: 65px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Efek transisi pada perubahan warna latar belakang */
+}
+
+/* Gaya tombol "Order Now" ketika dihover */
+.order-button:hover {
+    background-color: #00ff0d;
+}
+
+.order-button:hover {
+    background-color: rgb(137, 137, 137);
+}
+
+.class-instagram {
+    margin-top: 50px;
+    /* Jarak antara teks dan ikon */
+    position: absolute;
+    top: 685px;
+    /* Posisi vertikal di tengah */
+    transform: translateY(-50%);
+    /* Pusatkan di tengah vertikal */
+    right: 480px;
+    /* Jarak dari tepi kanan */
+}
+
+
+.class-LogoHandphone {
+    margin-top: 50px;
+    /* Jarak antara teks dan ikon */
+    position: absolute;
+    top: 685px;
+    /* Posisi vertikal di tengah */
+    transform: translateY(-50%);
+    /* Pusatkan di tengah vertikal */
+    right: 400px;
+    /* Jarak dari tepi kanan */
+}
+
+.class-alamat {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 50px;
+    position: absolute;
+    top: 570px;
+    transform: translateY(-50%);
+    right: 115px; 
+}
+
+
+/* Gaya untuk class-LogoShoei */
+.class-LogoShoei {
+    position: absolute;
+    top: 30px; /* Jarak dari atas */
+    left: 5px; /* Jarak dari kiri */
+  }
+  
+  /* Gaya untuk container di dalam class-LogoShoei */
+  .class-LogoShoei .container {
+    position: absolute;
+    top: 50px; /* Pusatkan di tengah vertikal */
+    transform: translateY(-50%); /* Pusatkan di tengah vertikal */
+    left: 0px; /* Jarak dari tepi kiri */
+  }
+  
+  /* Gaya untuk logo di dalam class-LogoShoei */
+  .class-LogoShoei .logo {
+    width: 150px; /* Atur lebar logo sesuai kebutuhan */
+    height: auto; /* Biarkan ketinggian disesuaikan agar proporsional */
+  }
+  
